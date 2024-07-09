@@ -1,0 +1,382 @@
+@media(max-width:991px) {
+
+    /* Header-responsive-start */
+    .mobile_logo {
+        display: block;
+    }
+
+    .bootom_bar .menu_list ul {
+        display: none !important;
+    }
+
+    .header .logo_sec {
+        display: none;
+    }
+
+    .header .topbar {
+        display: none;
+    }
+
+    .element_2 {
+        display: none;
+    }
+
+    .mobile_logo img {
+        width: 133px;
+    }
+
+    .header {
+        padding: 0px 8px;
+    }
+
+    .header-scrolled.header {
+        padding: 23px 8px !important;
+    }
+
+    .right_menu .input_bx {
+        display: none;
+    }
+
+    .header .bootom_bar .bottom_content .right_menu .conatc_btn .cta-button {
+        display: none;
+    }
+
+    /* Header-responsive-end */
+
+    /* Banner-start */
+
+    .banner-wrapper .banner-content h1 {
+        font-size: 50px;
+        line-height: 59px;
+    }
+
+    /* Banner-end */
+}
+
+@media(max-width:576px) {
+
+    /* Header-responsive-start */
+    .mobile_logo img {
+        width: 80px;
+    }
+
+    /*Header-responsive-end*/
+
+    /* Banner-start */
+
+    .banner-wrapper .banner-content h1 {
+        font-size: 36px;
+        line-height: 47px;
+    }
+
+    /* Banner-end */
+}
+
+/* DESTINATION section start  */
+@media (max-width: 767px) {
+    .destination-title h5 {
+        font-size: 1rem;
+    }
+
+    .destination-title h2 {
+        font-size: 1.5rem;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .destination-title h5 {
+        font-size: 1.1rem;
+    }
+
+    .destination-title h2 {
+        font-size: 1.75rem;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .destination-title h5 {
+        font-size: 1.2rem;
+    }
+
+    .destination-title h2 {
+        font-size: 2rem;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .title-container1 h5::after {
+        width: 50px;
+        left: 77%;
+        top: 37%;
+    }
+    
+    .title-container1 h5::before {
+        width: 60px;
+        left: 24%;
+        top: 50%;
+    }
+}
+@media (max-width: 767px) {
+    .title-container1 h5::after {
+        width: 40px;
+        left: 90%;
+        top: 38%;
+    }
+    
+    .title-container1 h5::before {
+        width: 50px;
+        left: 8%;
+        top: 46%;
+    }
+}
+
+
+ /* EXPERIENCED section */
+@media (min-width: 768px) and (max-width: 991px) {
+    .exp-title h6::after {
+        width: 50px;
+        left: 55%;
+        top: 50%;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .exp-title h6::after {
+        width: 40px;
+        left: 88%;
+        top: 50%;
+    }
+}
+
+
+/* Media Query for Medium Devices (768px to 991px) */
+@media (max-width: 991px) {
+    .feature-carousel .owl-nav {
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        transform: translate(-51%, -50%);
+        justify-content: space-between;
+       top: 50%;
+    }
+}
+@media (max-width: 991px) {
+    .feature-carousel.owl-theme .owl-dots {
+      display: none;
+    }
+}
+
+
+/* Ngasini Travel Packages section start */
+
+/* Media query for small screens (phones, 576px and up) */
+
+@media (max-width: 991px) {
+
+    .top-title h5::after,
+    .top-title h5::before {
+        width: 40px;
+    }
+
+    .top-title h5::after {
+        left: 74%;
+        top: 48%;
+    }
+
+    .top-title h5::before {
+        left: 24%;
+        top: 40%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .top-title h5::after,
+    .top-title h5::before {
+        width: 40px;
+    }
+
+    .top-title h5::after {
+        left: 74%;
+        top: 48%;
+    }
+
+    .top-title h5::before {
+        left: 24%;
+        top: 40%;
+    }
+}
+
+/* Media query for extra small screens (phones, less than 576px) */
+@media (max-width: 576px) {
+
+    .top-title h5::after,
+    .top-title h5::before {
+        width: 30px;
+    }
+
+    .top-title h5::after {
+        left: 76%;
+        top: 43%;
+    }
+
+    .top-title h5::before {
+        left: 21%;
+        top: 47%;
+    }
+}
+
+
+/* map section */
+@media (max-width: 992px) {
+    .map img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    .map-section .hero-btn a {
+        display: inline-block;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .map-section {
+        padding-top: 20px;
+    }
+    
+    .map-section h5 {
+        font-size: 1.25rem;
+    }
+    
+    .map-section h3 {
+        font-size: 1.75rem;
+    }
+    
+    .map-section p {
+        font-size: 0.9rem;
+    }
+    
+    .map img {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .map-section {
+        padding-top: 10px;
+    }
+    
+    .map-section h5 {
+        font-size: 1rem;
+    }
+    
+    .map-section h3 {
+        font-size: 1.5rem;
+    }
+    
+    .map-section p {
+        font-size: 0.8rem;
+    }
+    
+    .map img {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+/* silder card section */
+
+/* For medium screens (tablets, smaller laptops) */
+@media (max-width: 992px) {
+    .swiper {
+        width: 400px;
+        height: 500px;
+    }
+}
+
+/* For small screens (phones, smaller tablets) */
+@media (max-width: 768px) {
+    .swiper {
+        width: 300px;
+        height: 400px;
+    }
+}
+
+
+/* Media query for medium-sized screens */
+@media (max-width: 992px) {
+    .card-info {
+        margin-right: 250px; 
+    }
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+    .card-info {
+        margin-right: 20px; 
+    }
+}
+
+
+.card-rating{
+    margin-right: 294px;
+}
+/* Media query for medium-sized screens */
+@media (max-width: 992px) {
+    .card-rating {
+        margin-right: 200px; 
+    }
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+    .card-rating {
+        margin-right: 20px; 
+    }
+}
+
+/* Media query for medium-sized screens */
+@media (max-width: 992px) {
+    .card-text {
+        font-size: 18px; 
+        padding: 15px; 
+    }
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+    .card-text {
+        font-size: 16px; 
+        padding: 10px; 
+    }
+}
+
+
+/* Media query for medium-sized screens */
+@media (max-width: 992px) {
+    .dot-icon {
+        width: 35px; 
+        height: 35px; 
+        top: 12%; /* Adjust positioning for medium screens */
+        left: 10%;
+    }
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+    .dot-icon {
+        width: 30px; 
+        height: 30px; 
+        top: 15%; /* Adjust positioning for small screens */
+        left: 12%;
+    }
+}
