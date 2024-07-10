@@ -1238,6 +1238,9 @@ a {
 .footer-inputs{
     width: 300px;
 }
+.footer-h-tag{
+    color: #158E8E;
+}
 
 
 /* silder card section */
@@ -1423,9 +1426,10 @@ a {
 
 
 /* banner model css start */
+
 .modal-dialog {
     position: absolute;
-    right: 0;
+    right: 20px;
     top: 50%;
     transform: translateY(-50%);
     margin: 0;
@@ -1473,6 +1477,10 @@ a {
     height: 50px;
 }
 
+ body.modal-open{
+    padding-right: 0 !important;
+ }
+
 /* banner model css end */
 
 
@@ -1501,7 +1509,6 @@ a {
 }
 
 /* custom arrow css end */
-
 
 
 
