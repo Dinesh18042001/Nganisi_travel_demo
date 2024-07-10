@@ -57,7 +57,7 @@
 
     /* Header-responsive-start */
     .mobile_logo img {
-        width: 80px;
+        width: 125px;
     }
 
     /*Header-responsive-end*/
@@ -243,7 +243,6 @@
     
     .map-section .hero-btn a {
         display: inline-block;
-        margin-top: 10px;
     }
 }
 
