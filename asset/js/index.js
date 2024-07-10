@@ -89,11 +89,24 @@ $(document).ready(function(){
   var swiper = new Swiper('.Slider-container', {
     effect: 'cards',
     grabCursor: true,
-    centerdSlides: true,
+    centeredSlides: true, 
     loop: true,
-  });
-  // swiper.changeDirection('vertical');
-  
+    pagination: {
+        el: '.swiper-pagination', 
+        clickable: true, 
+    },
+});
+
+
+
+/* custom arrow js start */
+  function slideToPrev() {
+    swiper.slidePrev();
+}
+
+function slideToNext() {
+    swiper.slideNext();
+}
   
 
 

@@ -174,8 +174,9 @@
 
 
     <!-- Banner-sec-start -->
-    <section class="banner-wrapper">
+    <section class="banner-wrapper ">
         <div class="container-fluid p-0">
+
             <div class="banner_slider owl-carousel owl-theme">
                 <div class="item">
                     <div class="banner_img position-relative">
@@ -195,7 +196,6 @@
                                     <a href="#">Discover More <ion-icon name="arrow-forward-outline"></ion-icon></a>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -244,8 +244,66 @@
                     </div>
                 </div>
             </div>
+
+            <div class="find-btn">
+                <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Find now</a>
+               </div>
         </div>
+
+        
     </section>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" style="max-width: 50%; margin: auto auto auto 0;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Find Your Trip</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-2">
+                        <label for="whereTo" class="form-label"><i class="fa-solid fa-location-dot"></i> Where To</label>
+                        <select class="form-select" id="whereTo">
+                            <option selected> Where To</option>
+                            <option value="1">Destination 1</option>
+                            <option value="2">Destination 2</option>
+                            <option value="3">Destination 3</option>
+                        </select>
+                    </div>
+                    <div class="mb-2">
+                        <label for="selectMonth" class="form-label">Select Month</label>
+                        <select class="form-select" id="selectMonth">
+                            <option selected>Select Month</option>
+                            <option value="1">January</option>
+                            <option value="2">February</option>
+                            <option value="3">March</option>
+                        </select>
+                    </div>
+                    <div class="mb-2">
+                        <label for="travelType" class="form-label">Travel Type</label>
+                        <select class="form-select" id="travelType">
+                            <option selected>Travel Type</option>
+                            <option value="1">Type 1</option>
+                            <option value="2">Type 2</option>
+                            <option value="3">Type 3</option>
+                        </select>
+                    </div>
+                    <div class="d-grid">
+                        <a type="submit" class="model-btn">Find Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+          
+  
+  
+
+    
 
     <!-- Banner-sec-end -->
 
@@ -513,7 +571,7 @@
                                     <div class="travel-card card text-center" style="border: none;">
                                         <img src="asset/img/travel-category/ICON 11.png" class="card-img-top mx-auto" alt="Safari">
                                         <div class="card-button">
-                                            <a class="btn btn-custom">Safari <i class="fa-solid fa-arrow-right"></i></a>
+                                            <a class="btn btn-custom">Trekking <i class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -557,6 +615,7 @@
                             </div>
                         </div>
                     </div>
+
 
                     <div class=" col-lg-6 text-center">
                         <div class="travel-title2">
@@ -709,8 +768,21 @@
                                 </div>
                             </div>
 
-                            
+                            <div class="swiper-pagination"></div>
                         </div>
+                        
+                        
+                        <div class="container arrows d-flex justify-content-center mt-4">
+                            <div class="circle-background" onclick="slideToPrev()">
+                                <img src="/asset/img/icon/arrow.png" alt="">
+                            </div>
+                            <div class="circle-background" onclick="slideToNext()">
+                                <img src="/asset/img/icon/right-arrow (1).png" alt="">
+                            </div>
+                        </div>
+                         
+                    
+                        
                     </div>
                     
                 </div>

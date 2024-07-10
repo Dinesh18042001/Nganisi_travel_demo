@@ -379,3 +379,70 @@
         left: 12%;
     }
 }
+
+
+/* floating button Responsive styles */
+@media (max-width: 1200px) {
+    .find-btn button, .find-btn a {
+        padding: 8px 20px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 992px) {
+    .find-btn button, .find-btn a {
+        padding: 7px 18px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .find-btn button, .find-btn a {
+        padding: 6px 16px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 576px) {
+    .find-btn button, .find-btn a {
+        padding: 5px 14px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .find-btn button, .find-btn a {
+        padding: 4px 12px;
+        font-size: 11px;
+        margin: 4px -20px; /* Adjust the margin for smaller screens */
+    }
+}
+
+
+/* model-btn  */
+
+@media (max-width: 768px) {
+    .model-btn {
+        width: 200px;
+        height: 45px;
+        border-radius: 3px;
+        margin-top: 11px;
+    }
+}
+
+@media (max-width: 551px) {
+    .model-btn {
+        width: 185px;
+        height: 45px;
+        margin-top: 22px;
+        border-radius: 2px;
+    }
+    }
+@media (max-width: 392px) {
+    .model-btn {
+        width: 165px;
+        height: 45px;
+        margin-top: 22px;
+        border-radius: 2px;
+    }
+    }

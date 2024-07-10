@@ -335,6 +335,57 @@ a {
     background: #000;
 }
 
+.banner_slider{
+    position: relative;
+}
+
+
+
+
+
+
+.find-btn {
+    text-align: center;
+    margin: 20px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 1;
+    margin-right: 0px;
+}
+
+.find-btn button, .find-btn a{
+    background-color: #158E8E; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px -32px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    transform: rotate(90deg);
+    transform-origin: center; 
+}
+
+
+
+
+
+.find-btn button:hover, .find-btn .btn:hover {
+    background-color: #021B1B;
+}
+
+
+
+
+
+
+
+
 .banner_slider .owl-dots {
     position: absolute;
     bottom: 30px;
@@ -786,13 +837,13 @@ a {
 
 .travel-text .card-text {
     position: absolute;
-    top: 200px;
+    top: 220px;
     width: 100%;
     color: white;
-    padding: 10px;
     margin: 0;
     font-family: var(--primary-font);
     font-size: 16px;
+    text-align: center;
 }
 
 .travel-text .card-text2 {
@@ -1241,7 +1292,6 @@ a {
 
 .card-text {
     color: #000; 
-    padding: 20px; 
     font-weight: 500 !important; 
     font-size: 20px; 
 }
@@ -1327,4 +1377,95 @@ a {
 .menu_list ul li a:hover::after {
     width: 100%;
 }
+
+
+
+
+
+
+/* banner model css start */
+.modal-dialog {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    max-width: 400px;
+}
+
+.modal.fade .modal-dialog {
+    transition: transform 0.3s ease-out;
+}
+
+.modal.show .modal-dialog {
+    transform: translate(0, -50%);
+}
+
+.modal-header{
+    border-bottom:none;
+}
+
+.modal-body{
+    padding-top: 0%;
+}
+
+.model-btn {
+    width: 300px;
+    height: 50px;
+    color: #fff;
+    background-color: #008080;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; 
+}
+
+
+
+.model-btn:hover {
+    background-color: #006767;
+    color: #fff;
+}
+
+.model-btn i {
+    margin-left: 5px; /* Adjust icon position */
+}
+.form-select{
+    height: 50px;
+}
+
+/* banner model css end */
+
+
+/* custom arrow css start */
+.arrows {
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+}
+
+.arrows .circle-background {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    background-color: #000; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px; 
+}
+
+.arrows .circle-background img {
+    max-width: 60%;
+    max-height: 55%;
+    padding: 5px;
+}
+
+/* custom arrow css end */
+
+
+
+
+
+
 
