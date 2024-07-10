@@ -957,7 +957,7 @@ a {
 
 @media (max-width: 400px) {
     .travel-text .card-text3-btn {
-        top: 25px;
+        top: 432px;
         font-size: 0.9em; /* Adjust font size for smaller screens */
     }
 }
@@ -1386,7 +1386,7 @@ a {
 .card-text {
     color: #000; 
     font-weight: 500 !important; 
-    font-size: 20px; 
+    font-size: 14px; 
 }
 
 .dot-icon {

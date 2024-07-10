@@ -219,12 +219,12 @@
     }
 
     .top-title h5::after {
-        left: 76%;
+        left: 82%;
         top: 43%;
     }
 
     .top-title h5::before {
-        left: 21%;
+        left: 19%;
         top: 47%;
     }
 }
