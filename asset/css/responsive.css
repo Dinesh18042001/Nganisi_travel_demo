@@ -147,9 +147,7 @@
 
 @media (max-width: 767px) {
     .exp-title h6::after {
-        width: 40px;
-        left: 88%;
-        top: 50%;
+       display: none;
     }
 }
 

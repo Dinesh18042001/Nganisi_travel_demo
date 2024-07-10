@@ -71,25 +71,43 @@
         <div class="bootom_bar">
             <div class="container-fluid">
                 <div class="bottom_content">
+                    
                     <div class="left-menu">
                         <div class="menu_list">
                             <ul class="d-flex">
                                 <li>
                                     <a href="#">Home</a>
                                 </li>
-                                <li>
-                                    <a href="#">Destination</a>
+                                <li class="dropdown">
+                                    <a href="#">Destination <i class="fa-solid fa-chevron-down"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Destination 1</a></li>
+                                        <li><a href="#">Destination 2</a></li>
+                                        <li><a href="#">Destination 3</a></li>
+                                    </ul>
                                 </li>
-                                <li>
-                                    <a href="#">Tours</a>
+                                <li class="dropdown">
+                                    <a href="#">Tours <i class="fa-solid fa-chevron-down"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Tour 1</a></li>
+                                        <li><a href="#">Tour 2</a></li>
+                                        <li><a href="#">Tour 3</a></li>
+                                    </ul>
                                 </li>
-                                <li>
-                                    <a href="#">Resources</a>
+                                <li class="dropdown">
+                                    <a href="#">Resources <i class="fa-solid fa-chevron-down"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Resource 1</a></li>
+                                        <li><a href="#">Resource 2</a></li>
+                                        <li><a href="#">Resource 3</a></li>
+                                    </ul>
                                 </li>
                                 <li>
                                     <a href="#">About Us</a>
                                 </li>
                             </ul>
+                            
+               
                             <div class="mobile_logo">
                                 <img src="asset/img/logo/cropped-Ngasini-Travel-Logo-WEB_2-removebg-preview 1.png" alt="">
                             </div>
@@ -152,9 +170,30 @@
     <div class="offcanvas-body">
         <nav class="nav flex-column mb-3">
             <a class="nav-link active text-white" href="#">Home</a>
-            <a class="nav-link text-white" href="#">Destination</a>
-            <a class="nav-link text-white" href="#">Tours</a>
-            <a class="nav-link text-white" href="#">Resources</a>
+            <div class="nav-item dropdown">
+                <a class="nav-link text-white dropdown-toggle" href="#" id="dropdownDestination" data-bs-toggle="dropdown" aria-expanded="false">Destination <i class="fa-solid fa-chevron-down"></i> </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownDestination">
+                    <li><a class="dropdown-item" href="#">Destination 1</a></li>
+                    <li><a class="dropdown-item" href="#">Destination 2</a></li>
+                    <li><a class="dropdown-item" href="#">Destination 3</a></li>
+                </ul>
+            </div>
+            <div class="nav-item dropdown">
+                <a class="nav-link text-white dropdown-toggle" href="#" id="dropdownTours" data-bs-toggle="dropdown" aria-expanded="false">Tours <i class="fa-solid fa-chevron-down"></i></a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownTours">
+                    <li><a class="dropdown-item" href="#">Tour 1</a></li>
+                    <li><a class="dropdown-item" href="#">Tour 2</a></li>
+                    <li><a class="dropdown-item" href="#">Tour 3</a></li>
+                </ul>
+            </div>
+            <div class="nav-item dropdown">
+                <a class="nav-link text-white dropdown-toggle" href="#" id="dropdownResources" data-bs-toggle="dropdown" aria-expanded="false">Resources <i class="fa-solid fa-chevron-down"></i></a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownResources">
+                    <li><a class="dropdown-item" href="#">Resource 1</a></li>
+                    <li><a class="dropdown-item" href="#">Resource 2</a></li>
+                    <li><a class="dropdown-item" href="#">Resource 3</a></li>
+                </ul>
+            </div>
             <a class="nav-link text-white" href="#">About Us</a>
         </nav>
         <form class="d-flex mb-3">
@@ -164,10 +203,6 @@
         <button class="btn btn-light w-100" type="button">Contact Us</button>
     </div>
 </div>
-
-
-
-
 
 
 
