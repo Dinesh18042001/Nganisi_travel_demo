@@ -107,7 +107,6 @@ a {
 }
 
 .bottom_content .left-menu .menu_list ul {
-    gap: 15px;
     padding: 0;
     margin-bottom: 0;
 }
@@ -1486,6 +1485,13 @@ a {
     margin: 0;
     max-width: 400px;
 }
+
+/* @media (max-width: 576px) {
+    .modal-dialog {
+       width: 200px; 
+    }
+} */
+
 
 .modal.fade .modal-dialog {
     transition: transform 0.3s ease-out;
