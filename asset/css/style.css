@@ -1819,6 +1819,40 @@ body.modal-open {
     margin-bottom: 20px;
     font-family: var(--primary-font);
 }
+.about-text h5 {
+    color: #158E8E;
+    font-family: var(--primary-font);
+    position: relative; /* Ensure the ::before and ::after pseudo-elements are positioned correctly */
+}
+
+.about-text h5::after {
+    content: '';
+    position: absolute;
+    width: 101px;
+    height: 3px;
+    background: linear-gradient(90deg, #FFFFFF 0%, #158E8E 100%);
+    left: 63%;
+    top: 40%;
+    transform: translateX(-50%);
+}
+
+.about-text h5::before {
+    content: '';
+    position: absolute;
+    width: 101px;
+    height: 3px;
+    background: linear-gradient(90deg, #158E8E 0%, #FFFFFF 100%);
+    left: 32%;
+    top: 40%
+}
+
+
+@media(max-width: 991px) {
+    .about-text h5::before, 
+    .about-text h5::after {
+        display: none;
+    }
+}
 
 .about-text p {
     font-size: 1.1rem;
@@ -2069,13 +2103,23 @@ body.modal-open {
 
 
 
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-body i {
+    color: #158E8E; /* Change icon color if needed */
+}
+
+
 
 /* About team card css  start*/
-
-
-
-
-
 
 /* Serengeti National Park page css start */
 
